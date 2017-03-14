@@ -1,0 +1,16 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 15:53:13
+project --topLevelPackage net.javavideotutorials.example --projectName video45 --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-02 15:53:24
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-09-02 15:54:28
+hint
+jpa setup --database MYSQL --provider HIBERNATE 
+hint
+entity jpa --class net.javavideotutorials.example.Users
+hint
+field number --fieldName id --type java.lang.Long 
+field string --fieldName username
+field string --fieldName password
+hint
+hint web mvc
+web mvc setup
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-09-03 10:07:43
